@@ -26,4 +26,31 @@ public class BedAndBreakfastTest {
         assertThat(result).isEqualTo("Zoe");
     }
 
+    @Test
+    public void canSetPrice(){
+        this.bedAndBreakfast.setPrice(32);
+        assertThat(bedAndBreakfast.getPrice()).isEqualTo(32);
+    }
+
+    @Test
+    public void canSetBookedCustomer(){
+        this.bedAndBreakfast.setBookedCustomer(Zoe);
+        assertThat(bedAndBreakfast.getCustomer().getCustomerName()).isEqualTo("Zoe");
+    }
+
+    @Test
+    public void canBook(){
+        bedAndBreakfast.book(Zoe);
+        String result = bedAndBreakfast.getCustomer().getCustomerName();
+        assertThat(result).isEqualTo("Zoe");
+    }
+
+//    @Test
+//    public void canCancel(){
+//        bedAndBreakfast.cancel(Zoe);
+//        String result = bedAndBreakfast.getCustomer().getCustomerName();
+//        assertThat(result).isEmpty();
+//    }
+
+
 }

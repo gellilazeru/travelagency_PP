@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7e4dac3-b272-4587-a134-5b9470dd735c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/travelagency_PP/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/travelagency_PP/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="b7e4dac3-b272-4587-a134-5b9470dd735c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
