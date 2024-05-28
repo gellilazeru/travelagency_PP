@@ -3,14 +3,14 @@ public class Customer {
     private String name;
     private int wallet;
 
-    public Customer (String name){
-        this.name = name;
+    public Customer (String customerName){
+        this.name = customerName;
         this.wallet = 100;
     }
 
     // GETTERS
 
-    public String getName(){
+    public String getCustomerName(){
         return this.name;
     }
 
@@ -20,7 +20,7 @@ public class Customer {
 
     // SETTERS
 
-    public void setName(String name){
+    public void setName(String customerName){
         this.name = name;
     }
 

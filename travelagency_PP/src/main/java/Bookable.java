@@ -1,4 +1,8 @@
 public interface Bookable {
 
-    private String name;
+    void book(Customer customer);
+    void cancel(Customer customer);
+    int getPrice();
+    boolean hasCapacity();
+
 }

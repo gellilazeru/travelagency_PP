@@ -15,7 +15,7 @@ public class CustomerTest {
 
     @Test
     public void canGetName (){
-        assertThat(customer.getName()).isEqualTo("Faith");
+        assertThat(customer.getCustomerName()).isEqualTo("Faith");
     }
 
     @Test
@@ -26,7 +26,7 @@ public class CustomerTest {
     @Test
     public void canSetName(){
         this.customer.setName("Gellila");
-        assertThat(customer.getName()).isEqualTo("Gellila");
+        assertThat(customer.getCustomerName()).isEqualTo("Gellila");
     }
 
     @Test
